@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .blue-bg-color{
+    background-color: #1572D3;
+  }
+  .blue-bg-color-opac{
+    background-color: #1571d325; 
+  }
+  .blue-color{
+    color: #1572D3;
+  }
+  .bg-color-051C34{
+    background-color: #051C34;
+  }
+  .color-D6D6D6{
+    color: #b9b8b8;
+  }
+  .color-242424{
+    color: #242424;
+  }
+  .color-272727{
+    color: #272727;
+  }
+  .color-B6B6B6{
+    color: #939393;
+  }
+  .color-595959{
+    color: #595959;
+  }
+  .bg-color-F7FBFF{
+    background-color: #e8f3fd;
+  }
+  .fs-7{
+    font-size: 0.8rem;
+  }
+  .border-b{
+    border-bottom: 5.5px;
+  }
+  .border-color-gary{
+    border-color: #747474;
+  }
+  .car-back-img{
+    z-index: -1;
+    top: -15%;
+  }
+  .z-15{
+    z-index: -15;
+  }
+
+  .shadow-pri{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .populer-card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .populer-section-bottom-btn{
+    a:hover{
+      transition: all 0.1s;
+      background-color: #e9e7e7;
+    }
+  }
+  .populer-card{
+    .populer-card-img{
+      img{
+        width: 208px;
+        height: 104px;
+      }
+    }
+  }
+  .testimonial-card-wrapper{
+    .testimonial-card-img{
+      img{
+        width: 297px;
+        height: 238px;
+      }
+    }
+  }
+
+
+  .home-hero-right-ab-img-wrapper{
+     .car{
+      @media (max-width:768px) {
+        opacity: 0.3;
+        z-index: 0;
+        
+       }
+     }
+     img{
+      @media (max-width:768px) {
+        opacity: 0.5;
+       
+        
+       }
+     }
+     }
+
+  

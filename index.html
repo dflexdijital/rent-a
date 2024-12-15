@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent-a-car</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg py-4">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.svg" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div
+              class="w-100 d-flex  py-md-0 py-5 flex-md-row flex-column gap-md-0 gap-3 align-items-center justify-content-between">
+              <ul class="navbar-nav  mx-auto gap-3">
+                <li class="nav-item">
+                  <a class="nav-link text-center " aria-current="page" href="#">Become a renter</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="#">Rental deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center" href="#">How it work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-center " aria-disabled="true">Why choose us</a>
+                </li>
+              </ul>
+              <div class="sigin-group d-flex flex-md-row flex-column gap-md-1 gap-3 align-items-center">
+                <a href="#?" class="sigin-btn  text-decoration-none px-4 py-2 text-black-50">Sig in</a>
+                <a href="#?" class="sigup-btn rounded-2 blue-bg-color  text-decoration-none px-4 py-1 text-white">Sign
+                  up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+
+  <section>
+    <div class="position-relative overflow-visible">
+      <div class="container d-flex flex-column gap-5">
+        <div class="row py-md-5">
+          <div class="col-12 col-md-4 py-5">
+            <div class="home-hero-start-wrapper px-md-0 px-2  d-flex flex-column gap-4">
+              <div class="home-hero-start-wrapper-heading poppins-semibold fs-1 lh-sm color-242424">
+                Find, book and rent a car
+                <div class="heading-blue-word position-relative d-flex justify-content-md-start justify-content-center">
+                  <div class="blue-color">Easily</div>
+                  <div class="position-absolute top-50"><img src="assets/img/home-hero/blue-word-bottom.svg" alt="">
+                  </div>
+
+                </div>
+              </div>
+              <div class="home-hero-start-wrapper-content color-272727">
+                Get a car wherever and whenever you need it with your IOS and Android device.
+              </div>
+              <div class="home-hero-start-wrapper-app-wrapper d-flex gap-3 justify-content-md-start justify-content-center">
+                <img src="assets/img/home-hero/play_store.svg" alt="" >
+                <img src="assets/img/home-hero/app_store.svg" alt="">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="row my-md-4 my-1 p-3 gy-md-0 gy-4 rounded-4 shadow-pri gx-md-5 ">
+          <div class="col-6 col-md-3  d-flex justify-content-center align-items-center text-center">
+            <div class="home-hero-bottom-selection-item d-flex gap-4 align-items-center">
+              <div class="home-hero-bottom-selection-item-icon">
+                <img src="assets/img/home-hero/loaction.svg" alt="">
+              </div>
+              <div class="home-hero-bottom-selection-item-content">
+                <div class="home-hero-bottom-selection-item-heading poppins-medium">
+                  Location
+                </div>
+                <div class="home-hero-bottom-selection-item-word color-B6B6B6 fs-7 ">
+                  Search your location
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-6 col-md-3  d-flex justify-content-center align-items-center text-center">
+            <div
+              class="home-hero-bottom-selection-item px-4 d-flex gap-4 align-items-center border-color-gary border-end border-start">
+              <div class="home-hero-bottom-selection-item-icon">
+                <img src="assets/img/home-hero/date.svg" alt="">
+              </div>
+              <div class="home-hero-bottom-selection-item-content">
+                <div class="home-hero-bottom-selection-item-heading poppins-medium">
+                  Pickup date
+                </div>
+                <div class="home-hero-bottom-selection-item-word color-B6B6B6 fs-7 ">
+                  Tue 15 Feb, 09:00
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-6 col-md-3  d-flex justify-content-center align-items-center text-center">
+            <div class="home-hero-bottom-selection-item d-flex gap-4 align-items-center">
+              <div class="home-hero-bottom-selection-item-icon">
+                <img src="assets/img/home-hero/date.svg" alt="">
+              </div>
+              <div class="home-hero-bottom-selection-item-content">
+                <div class="home-hero-bottom-selection-item-heading poppins-medium">
+                  Return date
+                </div>
+                <div class="home-hero-bottom-selection-item-word color-B6B6B6 fs-7 ">
+                  Thu 16 Feb, 11:00
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-6 col-md-3 d-flex justify-content-center align-items-center">
+            <a href="#?"
+              class="home-hero-bottom-selection-item-btn blue-bg-color text-decoration-none text-white px-4 py-2 rounded-2">
+              Search
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="home-hero-right-ab-img-wrapper position-absolute end-0 top-0 pt-5 overflow-visible">
+        <img src="assets/img/home-hero/car.svg" class="w-100 pt-3 car position-relative" alt="">
+        <img src="assets/img/home-hero/car-back.svg" class="car-back-img w-100 h-100 position-absolute end-0 " alt="">
+      </div>
+    </div>
+  </section>
+ 
+
+  <section >
+    <div class="container py-5  my-md-5">
+      <div class="section-top-info-wrapper d-flex flex-column text-center gap-3 align-items-center justify-content-center">
+        <div
+          class="section-heading-wrapper text-uppercase blue-color blue-bg-color-opac px-4 py-2 rounded-2 align-items-center">
+          how it work
+        </div>
+        <div class="section-heading-content poppins-medium fs-2">Rent with following 4 working steps</div>
+      </div>
+      <div class="row py-md-5 py-3 my-md-5 my-3 gy-md-0 gy-5 g-0">
+        <div class="col-6 col-md-3 d-flex justify-content-center ">
+          <div class="how-it-works-item-wrapper px-md-5 px-3 d-flex flex-column gap-3 align-items-center text-center">
+            <div class="how-it-works-item-icon-wrapper blue-bg-color-opac p-4 rounded-4">
+              <img src="assets/img/howitwork/location.svg" alt="">
+            </div>
+            <div class="how-it-wroks-item-heading poppins-medium">Choose location</div>
+            <div class="how-it-works-item-content color-B6B6B6">Choose your and find
+              your best car</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 d-flex justify-content-center ">
+          <div class="how-it-works-item-wrapper px-md-5 px-3 d-flex flex-column gap-3 align-items-center text-center">
+            <div class="how-it-works-item-icon-wrapper blue-bg-color-opac p-4 rounded-4">
+              <img src="assets/img/howitwork/car.svg" alt="">
+            </div>
+            <div class="how-it-wroks-item-heading poppins-medium">Book your car</div>
+            <div class="how-it-works-item-content color-B6B6B6">Select your pick up date and
+              time to book your car</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 d-flex justify-content-center ">
+          <div class="how-it-works-item-wrapper px-md-5 px-3 d-flex flex-column gap-3 align-items-center text-center">
+            <div class="how-it-works-item-icon-wrapper blue-bg-color-opac p-4 rounded-4">
+              <img src="assets/img/howitwork/date.svg" alt="">
+            </div>
+            <div class="how-it-wroks-item-heading poppins-medium">Pick-up date</div>
+            <div class="how-it-works-item-content color-B6B6B6">Select your pick up date and
+              time to book your car</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 d-flex justify-content-center ">
+          <div class="how-it-works-item-wrapper px-md-5 px-3 d-flex flex-column gap-3 align-items-center text-center">
+            <div class="how-it-works-item-icon-wrapper blue-bg-color-opac p-4 rounded-4">
+              <img src="assets/img/howitwork/car.svg" alt="">
+            </div>
+            <div class="how-it-wroks-item-heading poppins-medium">Book your car</div>
+            <div class="how-it-works-item-content color-B6B6B6">Select your pick up date and
+              time to book your car</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="how-it-works-slider">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/honda.svg" alt=""></div>
+          <div class="swiper-slide  d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/audi.svg" alt=""></div>
+          <div class="swiper-slide  d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/acura.svg" alt=""></div>
+          <div class="swiper-slide  d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/nissan.svg" alt=""></div>
+          <div class="swiper-slide  d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/jaguar.svg" alt=""></div>
+
+          <div class="swiper-slide  d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/volva.svg" alt=""></div>
+          <div class="swiper-slide  d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/honda.svg" alt=""></div>
+          <div class="swiper-slide  d-flex justify-content-center align-items-center"><img
+              src="assets/img/howitwork/audi.svg" alt=""></div>
+          <div class="swiper-slide  d-flex justify-content-center align-items-center "><img
+              src="assets/img/howitwork/nissan.svg" alt=""></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container py-5 my-5">
+      <div class="row gx-md-5 gy-0 gy-5">
+        <div class="col-md-6 pe-md-4 overflow-hidden">
+          <div class="who-us-start-img h-100 d-flex align-items-center  position-relative">
+            <img src="assets/img/whyus/audi.svg" alt="" class="w-100">
+            <img src="assets/img/whyus/Vector.svg" alt="" class="w-100 h-100 position-absolute z-15">
+          </div>
+        </div>
+        <div class="col-md-6 ps-md-5 px-4 px-md-0">
+          <div class="who-us-end-wrapper d-flex flex-column align-items-start gap-4">
+            <div
+              class="section-heading-wrapper text-uppercase blue-color blue-bg-color-opac px-4 py-2 rounded-2 align-items-center">
+              how it work
+            </div>
+            <div class="section-heading-content poppins-medium fs-2">We offer the best experience with our rental deals
+            </div>
+
+            <div class="who-us-end-cards-wrapper d-flex flex-column gap-4">
+              <div class="who-us-card d-flex align-items-center gap-4">
+                <div class="who-us-card-icon-wrapper blue-bg-color-opac p-3 rounded-3">
+                  <img src="assets/img/whyus/cash.svg" alt="">
+                </div>
+                <div class="who-us-card-content d-flex flex-column gap-1">
+                  <div class="who-us-card-heading poppins-medium">Best price guaranteed</div>
+                  <div class="who-us-card-content color-B6B6B6">Find a lower price? We’ll refund you 100%
+                    of the difference.</div>
+                </div>
+              </div>
+              <div class="who-us-card d-flex align-items-center gap-4">
+                <div class="who-us-card-icon-wrapper blue-bg-color-opac p-3 rounded-3">
+                  <img src="assets/img/whyus/user.svg" alt="">
+                </div>
+                <div class="who-us-card-content d-flex flex-column gap-1">
+                  <div class="who-us-card-heading poppins-medium">Experience driver</div>
+                  <div class="who-us-card-content color-B6B6B6">Don’t have driver? Don’t worry, we have many
+                    experienced driver for you.</div>
+                </div>
+              </div>
+              <div class="who-us-card d-flex align-items-center gap-4">
+                <div class="who-us-card-icon-wrapper blue-bg-color-opac p-3 rounded-3">
+                  <img src="assets/img/whyus/24hours.svg" alt="">
+                </div>
+                <div class="who-us-card-content d-flex flex-column gap-1">
+                  <div class="who-us-card-heading poppins-medium">24 hour car delivery</div>
+                  <div class="who-us-card-content color-B6B6B6">Book your car anytime and we will deliver it
+                    directly to you..</div>
+                </div>
+              </div>
+              <div class="who-us-card d-flex align-items-center gap-4">
+                <div class="who-us-card-icon-wrapper blue-bg-color-opac p-3 rounded-3">
+                  <img src="assets/img/whyus/chat.svg" alt="">
+                </div>
+                <div class="who-us-card-content d-flex flex-column gap-1">
+                  <div class="who-us-card-heading poppins-medium">24/7 technical support</div>
+                  <div class="who-us-card-content color-B6B6B6">Have a question? Contact Rentcars support
+                    any time when you have problem.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container py-5">
+      <div class="section-top-info-wrapper d-flex flex-column gap-3 align-items-center justify-content-center">
+        <div
+          class="section-heading-wrapper text-uppercase blue-color blue-bg-color-opac px-4 py-2 rounded-2 align-items-center">
+          POPULAR RENTAL DEALS
+        </div>
+        <div class="section-heading-content poppins-medium fs-2">Most popular cars rental deals</div>
+      </div>
+      <div class="row py-5 gy-md-0 gy-5">
+        <div class=" col-md-3">
+          <div class="populer-card p-3 rounded-3">
+            <div class="populer-card-img">
+              <img src="assets/img/populer/jaguar.svg" alt="" class="w-100">
+
+            </div>
+           <div class="populer-card-bottom-wrapper py-3 d-flex flex-column gap-2">
+            <div class="populer-card-heading poppins-medium">
+              Jaguar XE L P250
+            </div>
+            <div class="populer-star-wrapper d-flex align-items-center gap-2">
+              <div class="star-ico">
+                <img src="assets/img/populer/star.svg" alt="">
+              </div>
+              <div class="star-ico-words d-flex align-items-center gap-1">
+                <div class="star-number poppins-medium">
+                  4.8
+                </div>
+                <div class="star-number-details poppins-regular color-B6B6B6">
+                  (2.436 reviews)
+                </div>
+              </div>
+            </div>
+            <div class="populer-card-car-details d-flex flex-wrap gap-3 pt-2  pb-4 border-bottom border-color-gary">
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/user.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">4 Passagers</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/transmison.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Auto</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/ice.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Air Conditioning</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/door.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Door</div>
+              </div>
+            </div>
+            <div class="populer-card-prices-wrapper pt-3 d-flex flex-column gap-4">
+              <div class="populer-card-prices-top d-flex justify-content-between align-items-center">
+                <div class=" color-595959">Prices</div>
+                <div class="car-prices-day d-flex gap-2">
+                  <div class="prices poppins-medium">$1.800</div>
+                  <div class="day  poppins-regular color-B6B6B6">/day</div>
+                </div>
+              </div>
+              <div class="populer-card-prices-btn text-center">
+                <a href="#?" class="d-flex align-items-center justify-content-center gap-2 blue-bg-color text-white px-4 py-2 rounded-3 text-decoration-none">
+                  <div class="">Rent Now</div>
+                  <img src="assets/img/populer/arrow.svg" alt="">
+                </a>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="populer-card p-3 rounded-3">
+            <div class="populer-card-img">
+              <img src="assets/img/populer/audi.svg" alt="" class="w-100">
+
+            </div>
+           <div class="populer-card-bottom-wrapper py-3 d-flex flex-column gap-2">
+            <div class="populer-card-heading poppins-medium">
+              Audi R8
+            </div>
+            <div class="populer-star-wrapper d-flex align-items-center gap-2">
+              <div class="star-ico">
+                <img src="assets/img/populer/star.svg" alt="">
+              </div>
+              <div class="star-ico-words d-flex align-items-center gap-1">
+                <div class="star-number poppins-medium">
+                  4.6
+                </div>
+                <div class="star-number-details poppins-regular color-B6B6B6">
+                  (1.936 reviews)
+                </div>
+              </div>
+            </div>
+            <div class="populer-card-car-details d-flex flex-wrap gap-3 pt-2  pb-4 border-bottom border-color-gary">
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/user.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">2 Passagers</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/transmison.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Auto</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/ice.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Air Conditioning</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/door.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">2 Door</div>
+              </div>
+            </div>
+            <div class="populer-card-prices-wrapper pt-3 d-flex flex-column gap-4">
+              <div class="populer-card-prices-top d-flex justify-content-between align-items-center">
+                <div class=" color-595959">Prices</div>
+                <div class="car-prices-day d-flex gap-2">
+                  <div class="prices poppins-medium">$2.600</div>
+                  <div class="day  poppins-regular color-B6B6B6">/day</div>
+                </div>
+              </div>
+              <div class="populer-card-prices-btn text-center">
+                <a href="#?" class="d-flex align-items-center justify-content-center gap-2 blue-bg-color text-white px-4 py-2 rounded-3 text-decoration-none">
+                  <div class="">Rent Now</div>
+                  <img src="assets/img/populer/arrow.svg" alt="">
+                </a>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="populer-card p-3 rounded-3">
+            <div class="populer-card-img">
+              <img src="assets/img/populer/bmw.svg" alt="" class="w-100">
+
+            </div>
+           <div class="populer-card-bottom-wrapper py-3 d-flex flex-column gap-2">
+            <div class="populer-card-heading poppins-medium">
+              BMW M3
+            </div>
+            <div class="populer-star-wrapper d-flex align-items-center gap-2">
+              <div class="star-ico">
+                <img src="assets/img/populer/star.svg" alt="">
+              </div>
+              <div class="star-ico-words d-flex align-items-center gap-1">
+                <div class="star-number poppins-medium">
+                  4.5
+                </div>
+                <div class="star-number-details poppins-regular color-B6B6B6">
+                  (2.036 reviews)
+                </div>
+              </div>
+            </div>
+            <div class="populer-card-car-details d-flex flex-wrap gap-3 pt-2  pb-4 border-bottom border-color-gary">
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/user.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">4 Passagers</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/transmison.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Auto</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/ice.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Air Conditioning</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/door.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">4 Door</div>
+              </div>
+            </div>
+            <div class="populer-card-prices-wrapper pt-3 d-flex flex-column gap-4">
+              <div class="populer-card-prices-top d-flex justify-content-between align-items-center">
+                <div class=" color-595959">Prices</div>
+                <div class="car-prices-day d-flex gap-2">
+                  <div class="prices poppins-medium">$1.600</div>
+                  <div class="day  poppins-regular color-B6B6B6">/day</div>
+                </div>
+              </div>
+              <div class="populer-card-prices-btn text-center">
+                <a href="#?" class="d-flex align-items-center justify-content-center gap-2 blue-bg-color text-white px-4 py-2 rounded-3 text-decoration-none">
+                  <div class="">Rent Now</div>
+                  <img src="assets/img/populer/arrow.svg" alt="">
+                </a>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="populer-card p-3 rounded-3">
+            <div class="populer-card-img">
+              <img src="assets/img/populer/lambo.svg" alt="" class="w-100">
+
+            </div>
+           <div class="populer-card-bottom-wrapper py-3 d-flex flex-column gap-2">
+            <div class="populer-card-heading poppins-medium">
+              Lamborghini Huracan
+            </div>
+            <div class="populer-star-wrapper d-flex align-items-center gap-2">
+              <div class="star-ico">
+                <img src="assets/img/populer/star.svg" alt="">
+              </div>
+              <div class="star-ico-words d-flex align-items-center gap-1">
+                <div class="star-number poppins-medium">
+                  4.3
+                </div>
+                <div class="star-number-details poppins-regular color-B6B6B6">
+                  (2.236 reviews)
+                </div>
+              </div>
+            </div>
+            <div class="populer-card-car-details d-flex flex-wrap gap-3 pt-2  pb-4 border-bottom border-color-gary">
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/user.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">2 Passagers</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/transmison.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Auto</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/ice.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">Air Conditioning</div>
+              </div>
+              <div class="car-details-item d-flex align-items-center gap-2">
+                <img src="assets/img/populer/door.svg" alt="">
+                <div class="car-details-item-word poppins-regular color-B6B6B6">2 Door</div>
+              </div>
+            </div>
+            <div class="populer-card-prices-wrapper pt-3 d-flex flex-column gap-4">
+              <div class="populer-card-prices-top d-flex justify-content-between align-items-center">
+                <div class=" color-595959">Prices</div>
+                <div class="car-prices-day d-flex gap-2">
+                  <div class="prices poppins-medium">$2.300</div>
+                  <div class="day  poppins-regular color-B6B6B6">/day</div>
+                </div>
+              </div>
+              <div class="populer-card-prices-btn text-center">
+                <a href="#?" class="d-flex align-items-center justify-content-center gap-2 blue-bg-color text-white px-4 py-2 rounded-3 text-decoration-none">
+                  <div class="">Rent Now</div>
+                  <img src="assets/img/populer/arrow.svg" alt="">
+                </a>
+              </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="populer-section-bottom-btn d-flex justify-content-center py-3">
+        <a href="#?" class="text-black-50 text-decoration-none d-flex align-items-center gap-3 px-4 py-2 rounded-3 border border-color-gary">
+          <div class="">Show all vehicles</div>
+          <img src="assets/img/populer/arrow-black.svg" alt="">
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+<section>
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-md-6  d-flex px-md-0 px-4 align-items-center">
+        <div class="download-start-item-wrapper">
+          <div class="section-top-info-wrapper d-flex flex-column gap-4 align-items-start justify-content-center lh-sm">
+            <div
+              class="section-heading-wrapper text-uppercase blue-color blue-bg-color-opac px-4 py-2 rounded-2 align-items-center">
+              Download
+            </div>
+            <div class="section-heading-content poppins-semibold fs-2 pe-5">Download Rentcars App for <spann class="text-primary">FREE</spann></div>
+            <div class="dowland-section-content poppins-regular ">
+              For faster, easier booking and exclusive deals.
+            </div>
+            <div class="dowland-section-app d-flex gap-3">
+              <img src="assets/img/home-hero/play_store.svg" alt="">
+              <img src="assets/img/home-hero/app_store.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 pt-5 px-5">
+        <img src="assets/img/dowland/phone.svg" alt="" class="w-100 h-100 ">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-color-051C34">
+  <div class="container pt-4">
+      <div class="row py-5 border-secondary gap-5 gap-md-0 border-bottom">
+        <div class="col-md-4 px-5">
+          <div class="footer-start-item-wrapper d-flex flex-column gap-4">
+            <div class="footer-start-item-logo">
+              <img src="assets/img/footer/logo.svg" alt="">
+            </div>
+            <div class="footer-start-item d-flex gap-2 align-items-center mt-3">
+              <div class="footer-start-item-ico">
+                <img src="assets/img/footer/location.svg" alt="">
+              </div>
+              <div class="footer-start-item-word color-D6D6D6 poppins-light">
+                25566 Hc 1, Glenallen, Alaska, 99588, USA
+              </div>
+            </div>
+            <div class="footer-start-item d-flex gap-2 align-items-center">
+              <div class="footer-start-item-ico">
+                <img src="assets/img/footer/call.svg" alt="">
+              </div>
+              <div class="footer-start-item-word color-D6D6D6 poppins-light">
+                +603 4784 273 12
+              </div>
+            </div>
+            <div class="footer-start-item d-flex gap-2 align-items-center">
+              <div class="footer-start-item-ico">
+                <img src="assets/img/footer/sms.svg" alt="">
+              </div>
+              <div class="footer-start-item-word color-D6D6D6 poppins-light">
+                rentcars@gmail.com
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-8">
+          <div class="row gy-md-0 gy-4 ">
+            <div class="col-6 col-md-3 d-flex justify-content-md-start justify-content-center">
+              <div class="footer-end-item-wrapper d-flex flex-column gap-4">
+                <div class="footer-end-item-heading poppins-medium fs-6 text-white">
+                  Our Product
+                </div>
+                <ul class="color-D6D6D6 d-flex flex-column gap-2">
+                  <li>Career</li>
+                  <li>Car</li>
+                  <li>Packages</li>
+                  <li>Features</li>
+                  <li>Priceline</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 d-flex justify-content-md-start justify-content-center">
+              <div class="footer-end-item-wrapper d-flex flex-column gap-4">
+                <div class="footer-end-item-heading poppins-medium fs-6 text-white">
+                  Resources
+                </div>
+                <ul class="color-D6D6D6 d-flex flex-column gap-2">
+                  <li>Download</li>
+                  <li>Help Centre</li>
+                  <li>Guides</li>
+                  <li>Partner Network</li>
+                  <li>Cruises</li>
+                  <li>Developer</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 d-flex justify-content-md-start justify-content-center">
+              <div class="footer-end-item-wrapper d-flex flex-column gap-4">
+                <div class="footer-end-item-heading poppins-medium fs-6 text-white">
+                  About Rentcars
+                </div>
+                <ul class="color-D6D6D6 d-flex flex-column gap-2">
+                  <li>Why choose us</li>
+                  <li>Our Story</li>
+                  <li>Investor Relations</li>
+                  <li>Press Center</li>
+                  <li>Advertise</li>
+                 
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-md-3 d-flex justify-content-md-start justify-content-center">
+              <div class="footer-end-item-wrapper d-flex flex-column gap-4">
+                <div class="footer-end-item-heading poppins-medium fs-6 text-white">
+                  Follow Us
+                </div>
+                <div class="footer-end-item-icon-wrapper d-flex  gap-2 r">
+                  <img src="assets/img/footer/instagram.svg" alt="">
+                  <img src="assets/img/footer/facebook.svg" alt="">
+                  <img src="assets/img/footer/youtube.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="fs-7 color-D6D6D6 py-4">Copyright 2023 ・ Rentcars, All Rights Reserved</div>
+      </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+    
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+   
+      },
+           
+        breakpoints: {
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 4,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 5,
+        spaceBetween: 50,
+      },
+
+    }
+  }
+  );
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
