@@ -205,6 +205,11 @@ ul {
 }
 
 @media (max-width: 768px) {
+  .home-hero-right-ab-img-wrapper {
+    top: 100px;
+  }
+}
+@media (max-width: 768px) {
   .home-hero-right-ab-img-wrapper .car {
     opacity: 0.3;
     z-index: 0;

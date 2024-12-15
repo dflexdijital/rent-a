@@ -198,6 +198,10 @@ ul{
 
 
   .home-hero-right-ab-img-wrapper{
+    @media (max-width:768px) {
+     top: 100px;
+      
+     }
      .car{
       @media (max-width:768px) {
         opacity: 0.3;
